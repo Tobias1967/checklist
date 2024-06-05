@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MainApp());
-}
+import 'package:checvklist/check_list.dart';
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+void main() {
+  runApp(const DynamicListScreen());
 }

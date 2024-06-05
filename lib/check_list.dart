@@ -5,6 +5,7 @@ class DynamicListScreen extends StatefulWidget {
   const DynamicListScreen({super.key});
 
   @override
+
   _DynamicListScreenState createState() => _DynamicListScreenState();
 }
 
